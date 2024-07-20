@@ -9,7 +9,7 @@ connection:
   - key: user
     value: spotapp
   - key: password
-    value: "P2wd_4321"
+    value: ""
   - key: role
     value: SYSADMIN
   - key: warehouse
