@@ -2,7 +2,10 @@
   "originalGuid" : "c1e3c3e0-252b-4dc8-bc20-d622a60e49c2",
   "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
   "counter" : 0,
-  "additionalMapping" : { }
+  "additionalMapping" : {
+    "schema: HUBSPOT" : "schema: HUBSPOT_Nico",
+    "db: SPOTAPPS_DB" : "db: SPOTAPPS_DB_Nico",
+  }
 }, {
   "originalGuid" : "c2056908-ddbe-4c06-888d-c070e0a305d6",
   "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
