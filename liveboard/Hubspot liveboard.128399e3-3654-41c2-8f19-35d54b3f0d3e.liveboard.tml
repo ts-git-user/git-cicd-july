@@ -419,10 +419,6 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Month(Closedate)\",\"columnProperty\": {\"dataLabels\": false}},{\"columnId\": \"Total Hs Projected Amount\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"e90e92c6-38c5-4a88-ad61-2905bd3dba46\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Hs Projected Amount\"],\"isOpposite\": false}},{\"id\": \"80b258d8-45cc-482b-a597-4e8b126f2975\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Closedate)\"]}}],\"seriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"c8199a62-bd03-423b-a742-9b5603c2e86f\",\"color\": \"#FF8142\"}],\"systemSeriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"c8199a62-bd03-423b-a742-9b5603c2e86f\",\"color\": \"#FF8142\"},{\"serieName\": \"Total Hs Projected Amount\",\"color\": \"#06BF7F\"}]}"
       display_mode: CHART_MODE
     viz_guid: 37e04372-cc64-4314-b9f4-701243383f00
-  - id: Viz_12
-    viz_guid: bf509201-0692-40e6-addc-713e3762a75a
-    note_tile:
-      html_parsed_string: "<h1 dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Adding a note tile for v2</span></h1><p class=\"theme-module__editor-paragraph\"><br></p><div class=\"pinboard-note-tile-module__noteTileBg editor-module__bgNode\" style=\"background-color: rgb(255, 255, 255);\"></div>"
   layout:
     tabs:
     - name: Tab 1
@@ -475,11 +471,6 @@ liveboard:
         width: 3
       - visualization_id: Viz_11
         x: 3
-        "y": 0
-        height: 4
-        width: 3
-      - visualization_id: Viz_12
-        x: 0
         "y": 0
         height: 4
         width: 3
