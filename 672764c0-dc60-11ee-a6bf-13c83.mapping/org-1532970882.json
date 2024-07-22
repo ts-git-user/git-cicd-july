@@ -8,13 +8,30 @@
 }, {
   "originalGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
   "mappedGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
-  "counter" : 1,
+  "counter" : 2,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "c2056908-ddbe-4c06-888d-c070e0a305d6",
   "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
   "counter" : 0,
   "additionalMapping" : { }
+}, {
+  "originalGuid" : "0d1f94bb-7cae-4f03-9e4c-001b374486b0",
+  "mappedGuid" : "4d7c0bb9-bd82-4cfb-bdf4-e89d15372cd4",
+  "counter" : 0,
+  "additionalMapping" : {
+    "504d4894-8d6e-4a07-8098-938f83a9e4c4" : "ed9bf417-b3ef-4072-8769-ba52b1c4cd83",
+    "c75f0dbf-94b4-4416-b40b-8cf1b74b7b8f" : "8686e235-a13d-47d6-9586-f25872f46896",
+    "0f27fc52-576f-4774-9ae4-557318d7646e" : "605891d8-cbee-405f-8bcf-6fe814a7fb31",
+    "c68c2ec9-d66b-45d8-adaf-66de6a5a0de2" : "b6eff921-f61f-4d0a-a577-d9ad7c0b9dc6",
+    "23657b96-c841-4ff2-b296-fd9758168f55" : "41886b2b-d672-45ee-a235-0156909b0d5f",
+    "a80d5cfa-2182-442c-be26-60c5a628956d" : "3255f3bd-2846-4a9b-bb10-bd16705181d1",
+    "b079f172-0017-42c8-86c4-d1d756d0b651" : "101f295b-7eb3-4a0e-9c0c-07244801aebb",
+    "7bec4eed-90a1-4e04-acee-d1a0a2b02597" : "87cb2f52-9b49-4b92-b121-256d19fdcdcd",
+    "6b969cc8-bcbd-4274-9cb4-8580463353d5" : "a63170e0-54d5-49e6-bff4-51c91b4dce62",
+    "d9e2836e-41a7-4632-a887-982ead97b948" : "abd75c2b-c592-461b-90aa-2d967b1a271c",
+    "8afcdfa9-726b-4215-888b-0eec942f7bf4" : "ca33fa5f-657c-4776-970d-728cc8977456"
+  }
 }, {
   "originalGuid" : "128399e3-3654-41c2-8f19-35d54b3f0d3e",
   "mappedGuid" : "64d1e7b6-1955-4a1b-a760-39beabc8944f",
@@ -40,22 +57,22 @@
 }, {
   "originalGuid" : "744f0afb-2cf1-4c05-a96d-50181946a3fa",
   "mappedGuid" : "744f0afb-2cf1-4c05-a96d-50181946a3fa",
-  "counter" : 1,
+  "counter" : 2,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
   "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
-  "counter" : 1,
+  "counter" : 2,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "64d1e7b6-1955-4a1b-a760-39beabc8944f",
   "mappedGuid" : "64d1e7b6-1955-4a1b-a760-39beabc8944f",
-  "counter" : 3,
+  "counter" : 4,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
   "mappedGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
-  "counter" : 1,
+  "counter" : 2,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "db: SPOTAPPS_DB",
@@ -75,7 +92,7 @@
 }, {
   "originalGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
   "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
-  "counter" : 1,
+  "counter" : 2,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "33943fd0-9574-4a46-93a0-aa5628848fe4",
