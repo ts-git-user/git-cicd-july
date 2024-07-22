@@ -8,7 +8,7 @@
 }, {
   "originalGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
   "mappedGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
-  "counter" : 0,
+  "counter" : 1,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "c2056908-ddbe-4c06-888d-c070e0a305d6",
@@ -40,21 +40,31 @@
 }, {
   "originalGuid" : "744f0afb-2cf1-4c05-a96d-50181946a3fa",
   "mappedGuid" : "744f0afb-2cf1-4c05-a96d-50181946a3fa",
-  "counter" : 0,
+  "counter" : 1,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
   "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
-  "counter" : 0,
+  "counter" : 1,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "64d1e7b6-1955-4a1b-a760-39beabc8944f",
   "mappedGuid" : "64d1e7b6-1955-4a1b-a760-39beabc8944f",
-  "counter" : 2,
+  "counter" : 3,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
   "mappedGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
+  "counter" : 1,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "db: SPOTAPPS_DB",
+  "mappedGuid" : "db: SPOTAPPS_DB_PROD",
+  "counter" : 0,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "value: SPOTAPPS_DB",
+  "mappedGuid" : "value: SPOTAPPS_DB_PROD",
   "counter" : 0,
   "additionalMapping" : { }
 }, {
@@ -65,7 +75,7 @@
 }, {
   "originalGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
   "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
-  "counter" : 0,
+  "counter" : 1,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "33943fd0-9574-4a46-93a0-aa5628848fe4",
@@ -77,14 +87,4 @@
   "mappedGuid" : "schema: HUBSPOT_PROD",
   "counter" : 0,
   "additionalMapping" : { }
-}, {
-  "originalGuid" : "value: SPOTAPPS_DB",
-  "mappedGuid" : "value: SPOTAPPS_DB_PROD",
-  "counter" : 0,
-  "additionalMapping" : { }
-}, {
-  "originalGuid" : "db: SPOTAPPS_DB",
-  "mappedGuid" : "db: SPOTAPPS_DB_PROD",
-  "counter" : 0,
-  "additionalMapping" : { }
-}]
+} ]
