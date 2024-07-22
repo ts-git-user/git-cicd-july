@@ -2,9 +2,7 @@
   "originalGuid" : "c1e3c3e0-252b-4dc8-bc20-d622a60e49c2",
   "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
   "counter" : 0,
-  "additionalMapping" : {
-    "schema: HUBSPOT" : "schema: HUBSPOT_PROD"
-  }
+  "additionalMapping" : { }
 }, {
   "originalGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
   "mappedGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
