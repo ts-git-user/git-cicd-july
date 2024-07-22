@@ -1,9 +1,4 @@
 [ {
-  "originalGuid" : "schema: HUBSPOT",
-  "mappedGuid" : "schema: HUBSPOT_PROD",
-  "counter" : 0,
-  "additionalMapping" : { }
-},{
   "originalGuid" : "c1e3c3e0-252b-4dc8-bc20-d622a60e49c2",
   "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
   "counter" : 0,
@@ -11,13 +6,13 @@
     "schema: HUBSPOT" : "schema: HUBSPOT2"
   }
 }, {
-  "originalGuid" : "c2056908-ddbe-4c06-888d-c070e0a305d6",
-  "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
+  "originalGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
+  "mappedGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
   "counter" : 0,
   "additionalMapping" : { }
-},{
-  "originalGuid" : "dc32d074-854a-4aa4-8bb6-2c7effb4cbb6",
-  "mappedGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
+}, {
+  "originalGuid" : "c2056908-ddbe-4c06-888d-c070e0a305d6",
+  "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
   "counter" : 0,
   "additionalMapping" : { }
 }, {
@@ -38,18 +33,48 @@
     "cdff1d99-6e78-4a71-abc2-3139e209bfc3" : "839f1d7c-741c-4d27-8745-d0c5818753c8"
   }
 }, {
-  "originalGuid" : "33943fd0-9574-4a46-93a0-aa5628848fe4",
-  "mappedGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
-  "counter" : 0,
-  "additionalMapping" : { }
-}, {
   "originalGuid" : "aaaceb83-b304-4391-8fed-509a0db9680c",
   "mappedGuid" : "744f0afb-2cf1-4c05-a96d-50181946a3fa",
   "counter" : 0,
   "additionalMapping" : { }
 }, {
+  "originalGuid" : "744f0afb-2cf1-4c05-a96d-50181946a3fa",
+  "mappedGuid" : "744f0afb-2cf1-4c05-a96d-50181946a3fa",
+  "counter" : 0,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
+  "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
+  "counter" : 0,
+  "additionalMapping" : { }
+}, {
   "originalGuid" : "64d1e7b6-1955-4a1b-a760-39beabc8944f",
   "mappedGuid" : "64d1e7b6-1955-4a1b-a760-39beabc8944f",
-  "counter" : 1,
+  "counter" : 2,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
+  "mappedGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
+  "counter" : 0,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "dc32d074-854a-4aa4-8bb6-2c7effb4cbb6",
+  "mappedGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
+  "counter" : 0,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
+  "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
+  "counter" : 0,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "33943fd0-9574-4a46-93a0-aa5628848fe4",
+  "mappedGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
+  "counter" : 0,
+  "additionalMapping" : { }
+}, {
+  "originalGuid" : "schema: HUBSPOT",
+  "mappedGuid" : "schema: HUBSPOT_PROD",
+  "counter" : 0,
   "additionalMapping" : { }
 } ]
