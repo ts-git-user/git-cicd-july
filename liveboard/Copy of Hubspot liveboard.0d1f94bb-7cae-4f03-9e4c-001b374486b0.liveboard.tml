@@ -1,0 +1,486 @@
+guid: 0d1f94bb-7cae-4f03-9e4c-001b374486b0
+liveboard:
+  name: Copy of Hubspot liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Amount by deal type
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Dealtype]"
+      answer_columns:
+      - name: Dealtype
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Dealtype
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Dealtype
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Dealtype
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Dealtype
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Dealtype\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b05334dd-e5fd-41f5-8200-5f7bb07facbd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"a14f7301-7706-4cb1-9ed9-6a1200436b38\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Dealtype\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c68c2ec9-d66b-45d8-adaf-66de6a5a0de2
+  - id: Viz_2
+    answer:
+      name: Total Amount by title
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Jobtitle]"
+      answer_columns:
+      - name: Jobtitle
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Jobtitle
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Jobtitle
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Jobtitle
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Jobtitle
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"37035236-5a63-46fd-aa61-48ecf9c71891\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b05334dd-e5fd-41f5-8200-5f7bb07facbd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"a14f7301-7706-4cb1-9ed9-6a1200436b38\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"37035236-5a63-46fd-aa61-48ecf9c71891\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 8afcdfa9-726b-4215-888b-0eec942f7bf4
+  - id: Viz_3
+    answer:
+      name: Total Amount by Country
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Country] sort by [Amount] descending"
+      answer_columns:
+      - name: Country
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Country
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Country
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Country
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Country
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Country\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1a0919ef-d52e-42b6-bafe-e311c083d421\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"0df4df9f-abab-459d-a8e1-1d061a9ef3a4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Country\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#8C62F5\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 504d4894-8d6e-4a07-8098-938f83a9e4c4
+  - id: Viz_4
+    answer:
+      name: Total Amount by Country and Deal type
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Dealtype] [Country] sort by [Amount] descending top 10"
+      answer_columns:
+      - name: Country
+      - name: Dealtype
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Country
+          show_headline: false
+        - column_id: Dealtype
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Dealtype
+        - Country
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Country
+        - column_id: Dealtype
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Country
+          "y":
+          - Total Amount
+          color:
+          - Dealtype
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true,\"legendPosition\": \"BOTTOM_LEGEND\"},\"columnProperties\": [{\"columnId\": \"Dealtype\",\"columnProperty\": {}},{\"columnId\": \"Country\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"6f469215-132a-4dfd-bee1-c7f4e081c6bd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"4e3d85f6-a4e1-4304-b714-89385a8d58e4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Country\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"},{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 0f27fc52-576f-4774-9ae4-557318d7646e
+  - id: Viz_5
+    answer:
+      name: Total Amount by State
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] sort by [Amount] descending [State]"
+      answer_columns:
+      - name: State
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: State
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - State
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: GEO_AREA
+        chart_columns:
+        - column_id: State
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - State
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"State\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"10ec5ca5-a6c0-4c3b-8416-da7a53303665\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"45890d3a-f0d7-42c6-acca-d51132faf4f3\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"State\"]}}],\"systemMultiColorSeriesColors\": [{\"serieName\": \"Total Amount\",\"colorMap\": [{\"serieName\": \"3fe56579-80a3-48cc-96dc-94e7263cb57f\",\"color\": [\"#ffffb2\",\"#fddd87\",\"#fba35d\",\"#f75534\",\"#f9140a\",\"#d70315\",\"#b10026\"]},{\"serieName\": \"State\",\"color\": [\"#ffffb2\",\"#fddd87\",\"#fba35d\",\"#f75534\",\"#f9140a\",\"#d70315\",\"#b10026\"]}]}]}"
+      display_mode: CHART_MODE
+    viz_guid: b079f172-0017-42c8-86c4-d1d756d0b651
+  - id: Viz_6
+    answer:
+      name: Total Amount by Dealtype monthly
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Closedate] [Closedate].weekly [Dealtype] sort by [Closedate]"
+      answer_columns:
+      - name: Dealtype
+      - name: Total Amount
+      - name: Week(Closedate)
+      table:
+        table_columns:
+        - column_id: Dealtype
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        - column_id: Week(Closedate)
+          show_headline: false
+        ordered_column_ids:
+        - Week(Closedate)
+        - Dealtype
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Dealtype
+        - column_id: Total Amount
+        - column_id: Week(Closedate)
+        axis_configs:
+        - x:
+          - Week(Closedate)
+          "y":
+          - Total Amount
+          color:
+          - Dealtype
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Week(Closedate)\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Dealtype\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"c3f7b08f-7c42-4442-a198-851251022f10\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"990bf62d-a514-427c-a89f-73d1344a6106\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Week(Closedate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 7bec4eed-90a1-4e04-acee-d1a0a2b02597
+  - id: Viz_7
+    answer:
+      name: Total Amount by state and deal stage
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Dealstage] [State] top 40"
+      answer_columns:
+      - name: Dealstage
+      - name: State
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Dealstage
+          show_headline: false
+        - column_id: State
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Dealstage
+        - State
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Dealstage
+        - column_id: State
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - State
+          "y":
+          - Total Amount
+          color:
+          - Dealstage
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"State\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Dealstage\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"290b31c7-156c-4a33-8477-188d1b47a7b5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fcfd91db-ab9f-49e8-bf34-0a6770aaa3d2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"State\"]}}],\"systemSeriesColors\": [{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"},{\"serieName\": \"appointment scheduled\",\"color\": \"#06BF7F\"},{\"serieName\": \"closed won\",\"color\": \"#FCC838\"},{\"serieName\": \"presentation scheduled\",\"color\": \"#48D1E0\"},{\"serieName\": \"qualified to buy\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 6b969cc8-bcbd-4274-9cb4-8580463353d5
+  - id: Viz_8
+    answer:
+      name: Total Amount Monthly
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Closedate].monthly"
+      answer_columns:
+      - name: Month(Closedate)
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Month(Closedate)
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Month(Closedate)
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Month(Closedate)
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Month(Closedate)
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": false}},{\"columnId\": \"Month(Closedate)\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"4c16e947-b3ed-4fbc-ae4a-173947cb7288\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"9a0301f3-1d87-4005-b778-ec80a764f7af\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Closedate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#8C62F5\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c75f0dbf-94b4-4416-b40b-8cf1b74b7b8f
+  - id: Viz_9
+    answer:
+      name: ASP Monthly
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Closedate].monthly [Total Revenue]"
+      answer_columns:
+      - name: Month(Closedate)
+      - name: Total Total Revenue
+      table:
+        table_columns:
+        - column_id: Month(Closedate)
+          show_headline: false
+        - column_id: Total Total Revenue
+          show_headline: false
+        ordered_column_ids:
+        - Month(Closedate)
+        - Total Total Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Month(Closedate)
+        - column_id: Total Total Revenue
+        axis_configs:
+        - x:
+          - Month(Closedate)
+          "y":
+          - Total Total Revenue
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Month(Closedate)\",\"columnProperty\": {\"dataLabels\": false}},{\"columnId\": \"Total Total Revenue\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"bf45ed5d-5366-479e-90de-bac7883390b7\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Total Revenue\"],\"isOpposite\": false}},{\"id\": \"fd9ccd10-d46a-4818-a24b-22951f0b3107\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Closedate)\"]}}],\"seriesColors\": [{\"serieName\": \"Total Total Revenue\",\"color\": \"#FCC838\"}],\"systemSeriesColors\": [{\"serieName\": \"Total Total Revenue\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a80d5cfa-2182-442c-be26-60c5a628956d
+  - id: Viz_10
+    answer:
+      name: Days to close
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Closedate].monthly [Days To Close]"
+      answer_columns:
+      - name: Month(Closedate)
+      - name: Total Days To Close
+      table:
+        table_columns:
+        - column_id: Month(Closedate)
+          show_headline: false
+        - column_id: Total Days To Close
+          show_headline: false
+        ordered_column_ids:
+        - Month(Closedate)
+        - Total Days To Close
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Month(Closedate)
+        - column_id: Total Days To Close
+        axis_configs:
+        - x:
+          - Month(Closedate)
+          "y":
+          - Total Days To Close
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Month(Closedate)\",\"columnProperty\": {\"dataLabels\": false}},{\"columnId\": \"Total Days To Close\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"ccbf7150-bbe6-48f7-818c-9f22016cf929\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Days To Close\"],\"isOpposite\": false}},{\"id\": \"553444e1-db52-4073-9e52-8a25b09c9b75\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Closedate)\"]}}],\"seriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Days To Close\",\"color\": \"#FF8142\"}],\"systemSeriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"Total Days To Close\",\"color\": \"#FCC838\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 23657b96-c841-4ff2-b296-fd9758168f55
+  - id: Viz_11
+    answer:
+      name: Projected amount
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Closedate].monthly [Hs Projected Amount]"
+      answer_columns:
+      - name: Month(Closedate)
+      - name: Total Hs Projected Amount
+      table:
+        table_columns:
+        - column_id: Month(Closedate)
+          show_headline: false
+        - column_id: Total Hs Projected Amount
+          show_headline: false
+        ordered_column_ids:
+        - Month(Closedate)
+        - Total Hs Projected Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Month(Closedate)
+        - column_id: Total Hs Projected Amount
+        axis_configs:
+        - x:
+          - Month(Closedate)
+          "y":
+          - Total Hs Projected Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Month(Closedate)\",\"columnProperty\": {\"dataLabels\": false}},{\"columnId\": \"Total Hs Projected Amount\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"e90e92c6-38c5-4a88-ad61-2905bd3dba46\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Hs Projected Amount\"],\"isOpposite\": false}},{\"id\": \"80b258d8-45cc-482b-a597-4e8b126f2975\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Closedate)\"]}}],\"seriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"c8199a62-bd03-423b-a742-9b5603c2e86f\",\"color\": \"#FF8142\"}],\"systemSeriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"c8199a62-bd03-423b-a742-9b5603c2e86f\",\"color\": \"#FF8142\"},{\"serieName\": \"Total Hs Projected Amount\",\"color\": \"#06BF7F\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d9e2836e-41a7-4632-a887-982ead97b948
+  layout:
+    tabs:
+    - name: Tab 1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 16
+        height: 4
+        width: 3
+      - visualization_id: Viz_2
+        x: 3
+        "y": 16
+        height: 4
+        width: 3
+      - visualization_id: Viz_4
+        x: 0
+        "y": 8
+        height: 8
+        width: 6
+      - visualization_id: Viz_5
+        x: 6
+        "y": 8
+        height: 8
+        width: 6
+      - visualization_id: Viz_6
+        x: 6
+        "y": 4
+        height: 4
+        width: 3
+      - visualization_id: Viz_7
+        x: 9
+        "y": 4
+        height: 4
+        width: 3
+      - visualization_id: Viz_8
+        x: 0
+        "y": 4
+        height: 4
+        width: 3
+      - visualization_id: Viz_9
+        x: 6
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_10
+        x: 9
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_11
+        x: 3
+        "y": 0
+        height: 4
+        width: 3
+      id: dd4bc579-eb6f-4115-b622-f70a454153fd
+    - name: Tab 2
+      description: ""
+      tiles:
+      - visualization_id: Viz_3
+        x: 0
+        "y": 0
+        height: 8
+        width: 12
+      id: cbc62274-db30-46c6-a8b6-d6d1061f54eb
