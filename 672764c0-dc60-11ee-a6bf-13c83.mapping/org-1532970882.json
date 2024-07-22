@@ -3,7 +3,7 @@
   "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
   "counter" : 0,
   "additionalMapping" : {
-    "schema: HUBSPOT" : "schema: HUBSPOT"
+    "schema: HUBSPOT" : "schema: HUBSPOT_PROD"
   }
 }, {
   "originalGuid" : "17f895b7-3984-4bb6-b866-ded2a0cdb5be",
@@ -76,12 +76,12 @@
   "additionalMapping" : { }
 }, {
   "originalGuid" : "db: SPOTAPPS_DB",
-  "mappedGuid" : "db: SPOTAPPS_DB",
+  "mappedGuid" : "db: SPOTAPPS_DB_PROD",
   "counter" : 0,
   "additionalMapping" : { }
 }, {
   "originalGuid" : "value: SPOTAPPS_DB",
-  "mappedGuid" : "value: SPOTAPPS_DB",
+  "mappedGuid" : "value: SPOTAPPS_DB_PROD",
   "counter" : 0,
   "additionalMapping" : { }
 }, {
@@ -101,7 +101,7 @@
   "additionalMapping" : { }
 }, {
   "originalGuid" : "schema: HUBSPOT",
-  "mappedGuid" : "schema: HUBSPOT",
+  "mappedGuid" : "schema: HUBSPOT_PROD",
   "counter" : 0,
   "additionalMapping" : { }
 } ]
