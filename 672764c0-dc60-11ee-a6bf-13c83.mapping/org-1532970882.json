@@ -4,7 +4,7 @@
   "counter" : 0,
   "additionalMapping" : {
     "schema: HUBSPOT" : "schema: HUBSPOT_Nico",
-    "db: SPOTAPPS_DB" : "db: SPOTAPPS_DB_Nico",
+    "db: SPOTAPPS_DB" : "db: SPOTAPPS_DB_Nico"
   }
 }, {
   "originalGuid" : "c2056908-ddbe-4c06-888d-c070e0a305d6",
