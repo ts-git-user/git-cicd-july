@@ -3,15 +3,19 @@
   "mappedGuid" : "7e20c13f-e86e-416e-b25f-33fa77b0fe2b",
   "counter" : 0,
   "additionalMapping" : {
-    "schema: HUBSPOT" : "schema: HUBSPOT_Nico",
-    "db: SPOTAPPS_DB" : "db: SPOTAPPS_DB_Nico"
+    "db: SPOTAPPS_DB" : "db: SPOTAPPS_DB_PROD"
   }
 }, {
   "originalGuid" : "c2056908-ddbe-4c06-888d-c070e0a305d6",
   "mappedGuid" : "36e8f5de-b5f0-4167-99e7-9cb239a98975",
   "counter" : 0,
   "additionalMapping" : { }
-}, {
+},{
+  "originalGuid" : "schema: HUBSPOT",
+  "mappedGuid" : "schema: HUBSPOT_PROD",
+  "counter" : 0,
+  "additionalMapping" : { }
+},{
   "originalGuid" : "dc32d074-854a-4aa4-8bb6-2c7effb4cbb6",
   "mappedGuid" : "ff2d9b0a-2fa6-41c2-9db7-dc91be79deef",
   "counter" : 0,
