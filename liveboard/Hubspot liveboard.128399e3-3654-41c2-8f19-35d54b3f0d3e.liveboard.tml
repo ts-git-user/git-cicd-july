@@ -576,11 +576,11 @@ liveboard:
       - visualization_id: Viz_12
         x: 0
         "y": 0
-        height: 8
-        width: 6
+        height: 7
+        width: 3
       - visualization_id: Viz_13
-        x: 6
+        x: 3
         "y": 0
-        height: 8
-        width: 6
+        height: 7
+        width: 3
       id: 83c5fd13-af3e-494a-a3c0-de96140902f3
