@@ -426,40 +426,33 @@ liveboard:
       - id: HubSpot WS
         name: HubSpot WS
         fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
-      search_query: "[Amount] [Dealtype] [Country] sort by [Amount] descending top 10"
+      search_query: "[Amount] [Country] sort by [Amount] descending top 10"
       answer_columns:
       - name: Country
-      - name: Dealtype
       - name: Total Amount
       table:
         table_columns:
         - column_id: Country
           show_headline: false
-        - column_id: Dealtype
-          show_headline: false
         - column_id: Total Amount
           show_headline: false
         ordered_column_ids:
-        - Dealtype
         - Country
         - Total Amount
         client_state: ""
-        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"orderedColumnIds\": [\"Country\",\"Dealtype\",\"Total Amount\"]}"
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"orderedColumnIds\": [\"Country\",\"Total Amount\"]}"
       chart:
-        type: STACKED_COLUMN
+        type: BAR
         chart_columns:
         - column_id: Country
-        - column_id: Dealtype
         - column_id: Total Amount
         axis_configs:
         - x:
           - Country
           "y":
           - Total Amount
-          color:
-          - Dealtype
         client_state: ""
-        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true,\"legendPosition\": \"BOTTOM_LEGEND\"},\"columnProperties\": [{\"columnId\": \"Dealtype\",\"columnProperty\": {}},{\"columnId\": \"Country\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"6f469215-132a-4dfd-bee1-c7f4e081c6bd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"4e3d85f6-a4e1-4304-b714-89385a8d58e4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Country\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"},{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}]}"
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true,\"legendPosition\": \"BOTTOM_LEGEND\"},\"columnProperties\": [{\"columnId\": \"Country\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"6f469215-132a-4dfd-bee1-c7f4e081c6bd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"4e3d85f6-a4e1-4304-b714-89385a8d58e4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Country\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"},{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}]}"
       display_mode: TABLE_MODE
     viz_guid: 876f08d9-2ce8-4c36-bbbc-2b83fff8ffe2
   - id: Viz_13
