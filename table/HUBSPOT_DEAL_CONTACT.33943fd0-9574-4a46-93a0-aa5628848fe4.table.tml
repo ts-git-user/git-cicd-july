@@ -32,3 +32,5 @@ table:
     "on": "[HUBSPOT_DEAL_CONTACT::CONTACT_ID] = [HUBSPOT_CONTACTS::ID]"
     type: INNER
     is_one_to_one: true
+  sage_config:
+    is_sage_enabled: false

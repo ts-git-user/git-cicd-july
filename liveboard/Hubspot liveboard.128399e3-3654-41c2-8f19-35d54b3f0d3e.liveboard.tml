@@ -419,6 +419,92 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Month(Closedate)\",\"columnProperty\": {\"dataLabels\": false}},{\"columnId\": \"Total Hs Projected Amount\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"e90e92c6-38c5-4a88-ad61-2905bd3dba46\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Hs Projected Amount\"],\"isOpposite\": false}},{\"id\": \"80b258d8-45cc-482b-a597-4e8b126f2975\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Closedate)\"]}}],\"seriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"c8199a62-bd03-423b-a742-9b5603c2e86f\",\"color\": \"#FF8142\"}],\"systemSeriesColors\": [{\"serieName\": \"13d1d595-bebb-409f-993f-569a05ffdfcc\",\"color\": \"#FCC838\"},{\"serieName\": \"c8199a62-bd03-423b-a742-9b5603c2e86f\",\"color\": \"#FF8142\"},{\"serieName\": \"Total Hs Projected Amount\",\"color\": \"#06BF7F\"}]}"
       display_mode: CHART_MODE
     viz_guid: 37e04372-cc64-4314-b9f4-701243383f00
+  - id: Viz_12
+    answer:
+      name: Total Amount by Country and Deal type
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Dealtype] [Country] sort by [Amount] descending top 10"
+      answer_columns:
+      - name: Country
+      - name: Dealtype
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Country
+          show_headline: false
+        - column_id: Dealtype
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Dealtype
+        - Country
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\",\"orderedColumnIds\": [\"Country\",\"Dealtype\",\"Total Amount\"]}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Country
+        - column_id: Dealtype
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Country
+          "y":
+          - Total Amount
+          color:
+          - Dealtype
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true,\"legendPosition\": \"BOTTOM_LEGEND\"},\"columnProperties\": [{\"columnId\": \"Dealtype\",\"columnProperty\": {}},{\"columnId\": \"Country\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"6f469215-132a-4dfd-bee1-c7f4e081c6bd\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"4e3d85f6-a4e1-4304-b714-89385a8d58e4\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Country\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#747E8C\"},{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}]}"
+      display_mode: TABLE_MODE
+    viz_guid: 876f08d9-2ce8-4c36-bbbc-2b83fff8ffe2
+  - id: Viz_13
+    answer:
+      name: Total Amount by state and deal stage
+      tables:
+      - id: HubSpot WS
+        name: HubSpot WS
+        fqn: c2056908-ddbe-4c06-888d-c070e0a305d6
+      search_query: "[Amount] [Dealstage] [State] top 40"
+      answer_columns:
+      - name: Dealstage
+      - name: State
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Dealstage
+          show_headline: false
+        - column_id: State
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Dealstage
+        - State
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Dealstage
+        - column_id: State
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - State
+          "y":
+          - Total Amount
+          color:
+          - Dealstage
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"State\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Dealstage\",\"columnProperty\": {\"dataLabels\": true}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"290b31c7-156c-4a33-8477-188d1b47a7b5\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fcfd91db-ab9f-49e8-bf34-0a6770aaa3d2\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"State\"]}}],\"systemSeriesColors\": [{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"},{\"serieName\": \"appointment scheduled\",\"color\": \"#06BF7F\"},{\"serieName\": \"closed won\",\"color\": \"#FCC838\"},{\"serieName\": \"presentation scheduled\",\"color\": \"#48D1E0\"},{\"serieName\": \"qualified to buy\",\"color\": \"#2E75F0\"}]}"
+      display_mode: TABLE_MODE
+    viz_guid: 214173c3-5c45-40cb-9c08-b4a1fe2e028c
   layout:
     tabs:
     - name: Tab 1
@@ -484,3 +570,17 @@ liveboard:
         height: 8
         width: 12
       id: 57c6f03d-55b4-4b5d-ade3-ae93bbd74ec5
+    - name: JWT demo - tables
+      description: ""
+      tiles:
+      - visualization_id: Viz_12
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_13
+        x: 6
+        "y": 0
+        height: 8
+        width: 6
+      id: 83c5fd13-af3e-494a-a3c0-de96140902f3

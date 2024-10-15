@@ -188,3 +188,5 @@ table:
     "on": "[HUBSPOT_DEALS::ID] = [HUBSPOT_DEAL_CONTACT::DEAL_ID]"
     type: INNER
     is_one_to_one: true
+  sage_config:
+    is_sage_enabled: false
